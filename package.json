@@ -1,0 +1,12 @@
+{
+  "name": "iptv-fixer",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node src/cli.js",
+    "check": "node src/cli.js --check-only",
+    "refresh": "node src/cli.js --refresh"
+  }
+}

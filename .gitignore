@@ -1,0 +1,8 @@
+node_modules/
+.cache/
+.DS_Store
+status.json
+curated-status.json
+onstv.fixed.partial.m3u
+-onstv.m3u
+semi-origional-onstv.m3u
