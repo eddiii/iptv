@@ -1,6 +1,13 @@
 node_modules/
 .cache/
 .DS_Store
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Project artifacts
 status.json
 curated-status.json
 onstv.fixed.partial.m3u

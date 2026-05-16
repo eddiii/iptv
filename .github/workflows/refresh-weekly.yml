@@ -1,0 +1,42 @@
+name: Weekly refresh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 * * 0'  # Sunday 04:00 UTC
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Probe streams + pull iptv-org replacements
+        run: npm run refresh
+        continue-on-error: true
+
+      - name: Rebuild curated playlist
+        run: node build-curated.js
+
+      - name: Commit changes if any
+        run: |
+          git config user.email "ci@github.com"
+          git config user.name "iptv refresh bot"
+          git add edtv.m3u onstv.fixed.m3u onstv.fixed.partial.m3u status.json curated-status.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No changes — nothing to commit."
+            exit 0
+          fi
+          git commit -m "chore: weekly refresh [skip ci]"
+          git push
