@@ -42,7 +42,9 @@ jobs:
         run: |
           git config user.email "ci@github.com"
           git config user.name "iptv refresh bot"
-          git add edtv.m3u onstv.fixed.m3u onstv.fixed.partial.m3u status.json curated-status.json guide.xml guide.xml.gz 2>/dev/null || true
+          for f in edtv.m3u onstv.fixed.m3u guide.xml guide.xml.gz; do
+            [ -f "$f" ] && git add "$f"
+          done
           if git diff --cached --quiet; then
             echo "No changes — nothing to commit."
             exit 0
