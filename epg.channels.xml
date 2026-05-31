@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="tv.blue.ch" lang="en" xmltv_id="DW.de" site_id="142">DW Deutsch</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="EuronewsEnglish.fr" site_id="Plex/au#697140a85d851f5e69414688-60089d90f682a3002c348299">Euronews English</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="ABCNewsLive.us" site_id="PlutoTV/us#6508be683a0d700008c534e4">ABC News Live</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="NBCNewsNOW.us" site_id="Flash/epg#nbc-news-now">NBC News Now</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="CNNHeadlines.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-66b4fcc2530e39ea2ee79545">CNN Headlines</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="CheddarNews.us" site_id="Plex/ca#647f8d22a2fc3fadb4721685-5f6b8e5900b0950040d0f2af">Cheddar News</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="Newsy.us" site_id="96827">Newsy</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="AlJazeera.qa" site_id="au/Adelaide/epg#mjh-al-jazeera">Al Jazeera English</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="LiveNOWfromFOX.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-6377ea0e13bb6b1757e14695">LiveNOW from FOX</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="BloombergTV.us" site_id="Flash/epg#bloomberg">Bloomberg TV</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="CGTNArabic.cn" site_id="1#33#CGTN Arabic">CGTN العربية</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="SkyNewsArabia.ae" site_id="1#38#سكاي نيوز عربية">Sky News العربية</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="PalestineToday.ps@SD" site_id="1#33#Palestine Today">Palestine Today (480p) [Geo-blocked]</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AlMamlakaTV.jo@SD" site_id="1#38#المملكة تي في">Al Mamlaka TV (1080p)</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="AlManar.lb@SD" site_id="1321">Al Manar (576p) [Not 24/7]</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AlMayadeenTV.lb@SD" site_id="1#38#الميادين">Al Mayadeen (576p)</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="NBN.lb@SD" site_id="1275">NBN (1080p)</channel>
+  <channel site="freetv.tv" lang="he" xmltv_id="Now14.il" site_id="3457869">ערוץ 14</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="CGTNDocumentary.cn" site_id="SkyGo/epg#sky.309">CGTN Documentary</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="BBCEarth.uk" site_id="Plex/us#5e20b730f2f8d5003d739db7-6414a73254c537d12d8073d7">BBC Earth</channel>
+  <channel site="maxstream.tv" lang="id" xmltv_id="CuriosityChannel.us" site_id="0_3karb7oy">Curiosity</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="NASATV.us" site_id="12553">NASA TV Public</channel>
+  <channel site="i.mjh.nz" lang="de" xmltv_id="RedBullTV.at" site_id="PlutoTV/de#5e7cb84a172a0f0007da69e4">Red Bull TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="BloombergOriginals.us" site_id="Flash/epg#quicktake">Bloomberg Originals</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="HistoryHit.uk" site_id="Plex/au#697140a85d851f5e69414688-5f74cf83ffbe690040689f50">History Hit</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="FUELTV.pt" site_id="Plex/au#697140a85d851f5e69414688-62ffc5cfa6cad6f2991745c2">Fuel TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="TRTWorld.tr" site_id="Flash/epg#trt">TRT World</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="CGTN.cn" site_id="Flash/epg#cgtn">CGTN English</channel>
+  <channel site="distro.tv" lang="en" xmltv_id="AfricanewsEnglish.fr" site_id="78921">Africanews English</channel>
+  <channel site="maxstream.tv" lang="id" xmltv_id="ArirangTV.kr" site_id="0_wd3w16vp">Arirang TV</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="FreeSpeechTV.us" site_id="16220">Free Speech TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="ViceNews.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-635ff8bb66f96b46951ab7f3">Vice News</channel>
+  <channel site="tv.blue.ch" lang="en" xmltv_id="Now70s.uk" site_id="1716">Now 70s</channel>
+  <channel site="tv.blue.ch" lang="en" xmltv_id="Now80s.uk" site_id="1715">Now 80s</channel>
+  <channel site="tv.blue.ch" lang="de" xmltv_id="DeluxeMusic.de" site_id="17">DELUXE MUSIC</channel>
+  <channel site="i.mjh.nz" lang="de" xmltv_id="MTVPlutoTV.us" site_id="PlutoTV/de#5caf325764025859afdd6c4d">MTV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="MTVSpankinNew.us" site_id="PlutoTV/us#5d14fdb8ca91eedee1633117">MTV Spankin' New</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="MTVBiggestPop.us" site_id="PlutoTV/us#5d14fd1a252d35decbc4080c">MTV Biggest Pop</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="TraceUrban.fr" site_id="Plex/au#697140a85d851f5e69414688-6322658be67cf9cd9011fcda">Trace Urban</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="VevoPop.us" site_id="PlutoTV/us#5d93b635b43dd1a399b39eee">Vevo Pop</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="VevoCountry.us" site_id="PlutoTV/us#5da0d75e84830900098a1ea0">Vevo Country</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="BBCTravel.us" site_id="Plex/ca#647f8d22a2fc3fadb4721685-65622eddb7d737841f30a4fd">BBC Travel</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="OutsideTV.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-629e522ed1bc5f1b16c6b98d">Outside TV</channel>
+  <channel site="distro.tv" lang="en" xmltv_id="ChinaTravel.cn" site_id="143732">China Travel</channel>
+  <channel site="i.mjh.nz" lang="de" xmltv_id="PlutoTVMovies.us" site_id="PlutoTV/de#5c5c3b948002db3c3e0b262e">Pluto Movies</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="HallmarkMoviesMore.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-6244cf3c742b0d58cd4f2514">Hallmark Movies &amp; More</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="FilmRiseWestern.us" site_id="Plex/ca#647f8d22a2fc3fadb4721685-6627ab12580825e8a7bc4f05">FilmRise Western</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="DUST.us" site_id="SamsungTVPlus/us#USBC100000630">DUST</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="ShoutFactoryTV.us" site_id="111132">Shout! Factory TV</channel>
+  <channel site="i.mjh.nz" lang="fr" xmltv_id="TheAsylum.us" site_id="PlutoTV/fr#5f8ece1a89d79800072510e6">The Asylum</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="MovieSphere.us" site_id="Plex/au#697140a85d851f5e69414688-6623c78128a167c6e5b3079c">MovieSphere</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="MaverickBlackCinema.us" site_id="Plex/au#697140a85d851f5e69414688-5ef4e1b40d9ad000423c4430">Maverick Black Cinema</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="PBSKids.us" site_id="pbs-kids-247/31867">PBS Kids</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="ForeverKids.us" site_id="PlutoTV/us#56171fafada51f8004c4b40f">Forever Kids</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="MrBeanLiveAction.uk" site_id="Plex/au#697140a85d851f5e69414688-671a924b79fce6628115432c">Mr Bean (Live Action)</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="ABCKids.au" site_id="au/Adelaide/epg#mjh-abc-kids">ABC Kids (Australia)</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="TopGear.uk" site_id="Plex/ca#647f8d22a2fc3fadb4721685-6308f121ac9983739c8a29bd">Top Gear</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="TheGrahamNortonShow.uk" site_id="Plex/ca#647f8d22a2fc3fadb4721685-68dcbb869beaa3a402966dba">The Graham Norton Show</channel>
+  <channel site="freeview.co.uk" lang="en" xmltv_id="TalkTV.uk" site_id="64257#16406">TalkTV</channel>
+  <channel site="freeview.co.uk" lang="en" xmltv_id="talkSPORT.uk" site_id="64257#22592">talkSPORT</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="SNLVault.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-5fc70600598c41002da3dd34">SNL Vault</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="EntertainmentTonight.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-6578bb741a12778a8550d158">Entertainment Tonight</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="TheCarolBurnettShow.us" site_id="Plex/au#697140a85d851f5e69414688-60d4edd6b2fdec002c141125">The Carol Burnett Show</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="TheJudgeJudyChannel.us" site_id="PlutoTV/gb#622f498d119b4c000719c0b7">Judge Judy</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="GameShowCentral.us" site_id="Plex/ca#647f8d22a2fc3fadb4721685-5eea605574085f0040ddc782">Game Show Central</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="GameShowNetwork.us" site_id="14909">Game Show Network</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PBSAntiquesRoadshow.us" site_id="Plex/ca#647f8d22a2fc3fadb4721685-6348ac7090b96ef5e0eb3288">Antiques Roadshow</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="ESPN8TheOcho.us" site_id="Roku/all#aad0f36f2f811fc2f0491d3a7b51285e">ESPN8 The Ocho</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="FIFAPlus.uk" site_id="Plex/gb#64305451fc3be5947773c339-66628c68346b86608532dbcf">FIFA+</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="Stadium.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-5f6142d2fc6ce20041ec3c92">Stadium</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="Cops.us" site_id="Plex/au#697140a85d851f5e69414688-626c1753ffda6789d20a452e">Cops</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="FailArmy.us" site_id="Plex/au#697140a85d851f5e69414688-5f170d62b898490041b4936e">FailArmy</channel>
+  <channel site="i.mjh.nz" lang="de" xmltv_id="PlutoTVAnimals.us" site_id="PlutoTV/de#5d767ae7b456c8cf265ce922">Pluto Animals</channel>
+  <channel site="tv.blue.ch" lang="de" xmltv_id="DasErste.de" site_id="25">Das Erste Ⓖ</channel>
+  <channel site="tv.blue.ch" lang="de" xmltv_id="ZDF.de" site_id="656">ZDF Ⓖ</channel>
+  <channel site="tv.blue.ch" lang="de" xmltv_id="3sat.de" site_id="6">3sat Ⓖ</channel>
+  <channel site="tv.blue.ch" lang="de" xmltv_id="ARDalpha.de" site_id="26">ARD Alpha Ⓖ</channel>
+  <channel site="tv.blue.ch" lang="de" xmltv_id="SchlagerDeluxe.de" site_id="1714">SCHLAGER DELUXE</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="EuronewsGerman.fr" site_id="Plex/au#697140a85d851f5e69414688-6245efe9f137de43897ea1ae">Euronews Deutsch</channel>
+  <channel site="tv.blue.ch" lang="de" xmltv_id="One.de" site_id="147">ONE Ⓖ</channel>
+  <channel site="tv.blue.ch" lang="de" xmltv_id="tagesschau24.de" site_id="417">Tagesschau24</channel>
+  <channel site="tv.blue.ch" lang="de" xmltv_id="ZDFinfo.de" site_id="658">ZDFinfo Ⓖ</channel>
+  <channel site="tv.blue.ch" lang="de" xmltv_id="ZDFneo.de" site_id="659">ZDFneo Ⓖ</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="RadioBremenFernsehen.de" site_id="368">Radio Bremen Ⓖ</channel>
+  <channel site="tv.blue.ch" lang="de" xmltv_id="SRFernsehen.de" site_id="1502">SR Ⓖ</channel>
+  <channel site="tv.blue.ch" lang="de" xmltv_id="SWRFernsehenBadenWurttemberg.de" site_id="414">SWR Baden-Württemberg Ⓖ</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SWRFernsehenRheinlandPfalz.de" site_id="393">SWR Rheinland-Pfalz Ⓖ</channel>
+  <channel site="tvgids.nl" lang="nl" xmltv_id="NDRFernsehenInternational.de" site_id="ndr">NDR International</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="FalastiniTV.ps@SD" site_id="1#33#Falastini TV">Falastini TV (1080p)</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="AmmanTV.jo@SD" site_id="1#38#عمان تي في">Amman TV (720p)</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="JordanTV.jo@SD" site_id="1#38#الأردني تي في">Jordan Satellite Channel (1080p)</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="KaifaTV.jo@SD" site_id="1#33#Kaifa TV">Kaifa TV (576p)</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlerthAlnabawiChannel.jo@SD" site_id="1#33#Alerth Alnabawi">Alerth Alnabawi Channel (576p)</channel>
+  <channel site="roya-tv.com" lang="ar" xmltv_id="RoyaComedy.jo@SD" site_id="3">Roya Comedy (1080p)</channel>
+  <channel site="roya-tv.com" lang="ar" xmltv_id="RoyaDrama.jo@SD" site_id="2">Roya Drama (1080p)</channel>
+  <channel site="roya-tv.com" lang="ar" xmltv_id="RoyaKids.jo@SD" site_id="14">Roya Kids</channel>
+  <channel site="roya-tv.com" lang="ar" xmltv_id="RoyaKitchen.jo@SD" site_id="4">Roya Kitchen (1080p)</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="RoyaTV.jo@SD" site_id="1#38#رؤيا تي في">Roya TV (1080p) [Not 24/7]</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="MTV.lb" site_id="1296">MTV Lebanon</channel>
+  <channel site="tv.sfr.fr" lang="fr" xmltv_id="OTV.lb@SD" site_id="1285">OTV (1080p)</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="NabaaTV.lb@SD" site_id="1#33#Nabaa TV">Nabaa TV (720p) [Not 24/7]</channel>
+  <channel site="sat.tv" lang="en" xmltv_id="AlIttihadTV.lb@SD" site_id="1#33#Al Ittihad TV">Al Ittihad (552p) [Not 24/7]</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="AlJadeed.lb@SD" site_id="1216">Al Jadeed (1080p)</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="LanaTV.lb@SD" site_id="1313">LTV (360p)</channel>
+  <channel site="elcinema.com" lang="ar" xmltv_id="MTV.lb@SD" site_id="1296">MTV (1080p)</channel>
+  <channel site="freetv.tv" lang="he" xmltv_id="Kan11.il" site_id="3370462">כאן 11</channel>
+  <channel site="freetv.tv" lang="he" xmltv_id="Channel13.il" site_id="3328044">ערוץ 13</channel>
+  <channel site="freetv.tv" lang="ar" xmltv_id="Makan33.il" site_id="3371021">مكان 33</channel>
+  <channel site="freetv.tv" lang="he" xmltv_id="KanEducational.il" site_id="3370497">כאן חינוכית</channel>
+</channels>

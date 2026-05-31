@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://cdn.jsdelivr.net/gh/eddiii/iptv/guide.xml"
 #EXTINF:-1 tvg-name="Reuters" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Reuters_logo.svg/512px-Reuters_logo.svg.png" tvg-id="ReutersTV.us" group-title="News",Reuters
 https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8
 #EXTINF:-1 tvg-name="DW English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/DeutscheWelle-Logo.svg/512px-DeutscheWelle-Logo.svg.png" tvg-id="DWEnglish.de" group-title="News",DW English
@@ -21,6 +21,12 @@ https://jmp2.uk/plu-5421f71da6af422839419cb3.m3u8
 https://aegis-cloudfront-1.tubi.video/27ff1997-507a-41c4-8433-08875fe5f40f/playlist.m3u8
 #EXTINF:-1 tvg-name="Newsy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Newsy_logo.svg/250px-Newsy_logo.svg.png" tvg-id="Newsy.us" group-title="News",Newsy
 https://547f72e6652371c3.mediapackage.us-east-1.amazonaws.com/out/v1/e3e6e29095844c4ba7d887f01e44a5ef/index.m3u8
+#EXTINF:-1 tvg-name="Al Jazeera English" tvg-logo="https://dtil.tmsimg.com/assets/s159135_ld_h15_aa.png?lock=720x540" tvg-id="AlJazeera.qa" group-title="News",Al Jazeera English
+https://live-hls-apps-aja-fa.getaj.net/AJA/01.m3u8
+#EXTINF:-1 tvg-name="LiveNOW from FOX" tvg-logo="https://i.imgur.com/1JnyzHv.png" tvg-id="LiveNOWfromFOX.us" group-title="News",LiveNOW from FOX
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-livenowbyfox-lgus/playlist.m3u8
+#EXTINF:-1 tvg-name="Bloomberg TV" tvg-logo="https://i.imgur.com/OuogLHx.png" tvg-id="BloombergTV.us" group-title="News",Bloomberg TV
+https://bloomberg.com/media-manifest/streams/asia.m3u8
 #EXTINF:-1 tvg-name="Al Jazeera العربية" tvg-logo="https://i.imgur.com/BB93NQP.png" tvg-id="AlJazeeraChannel.qa" group-title="News",Al Jazeera العربية
 https://live-hls-web-aja.getaj.net/AJA/index.m3u8
 #EXTINF:-1 tvg-name="Al Arabiya العربية" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Al-Arabiya_new_logo.svg/640px-Al-Arabiya_new_logo.svg.png" tvg-id="AlArabiya.ae" group-title="News",Al Arabiya العربية
@@ -69,6 +75,10 @@ https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-name="Bloomberg Originals" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Bloomberg_Originals_logo.svg/512px-Bloomberg_Originals_logo.svg.png" tvg-id="BloombergOriginals.us" group-title="Documentary",Bloomberg Originals
 https://www.bloomberg.com/media-manifest/streams/originals-global.m3u8
+#EXTINF:-1 tvg-name="History Hit" tvg-logo="https://i.imgur.com/ulHoqlP.png" tvg-id="HistoryHit.uk" group-title="Documentary",History Hit
+https://ldsaaaaaa-timeline-samsungau-awedz.amagi.tv/playlist/ldsAAAAAA-timeline-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-name="Fuel TV" tvg-logo="https://i.imgur.com/I8mviBy.png" tvg-id="FUELTV.pt" group-title="Documentary",Fuel TV
+https://amg01074-fueltv-fueltvau-samsungau-g09kq.amagi.tv/playlist/amg01074-fueltv-fueltvau-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-name="NASA TV Media" tvg-logo="https://i.imgur.com/rmyfoOI.png" tvg-id="NASATVMedia.us" group-title="Documentary",NASA TV Media
 https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8
 #EXTINF:-1 tvg-name="TRT World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/TRT_World_logo.svg/512px-TRT_World_logo.svg.png" tvg-id="TRTWorld.tr" group-title="World",TRT World
@@ -105,6 +115,10 @@ https://jmp2.uk/plu-5d14fdb8ca91eedee1633117.m3u8
 https://jmp2.uk/plu-6047fbdbbb776a0007e7f2ff.m3u8
 #EXTINF:-1 tvg-name="Trace Urban" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Trace_Urban_logo_2024.svg/512px-Trace_Urban_logo_2024.svg.png" tvg-id="TraceUrban.fr" group-title="Music",Trace Urban
 https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="Vevo Pop" tvg-logo="https://i.imgur.com/dZHktKR.png" tvg-id="VevoPop.us" group-title="Music",Vevo Pop
+https://d128y56w6v2kax.cloudfront.net/playlist/amg00056-vevotv-vevopopau-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-name="Vevo Country" tvg-logo="https://images.pluto.tv/channels/5da0d75e84830900098a1ea0/featuredImage.jpg" tvg-id="VevoCountry.us" group-title="Music",Vevo Country
+https://amg00056-vevotv-vevocountryau-samsungau-ktmqm.amagi.tv/playlist/amg00056-vevotv-vevocountryau-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-name="BBC Travel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/BBC_Travel_logo_2019.svg/512px-BBC_Travel_logo_2019.svg.png" tvg-id="BBCTravel.us" group-title="Travel",BBC Travel
 https://jmp2.uk/plu-60e4519e6873180007d3cddb.m3u8
 #EXTINF:-1 tvg-name="Outside TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Outside_TV_logo.svg/512px-Outside_TV_logo.svg.png" tvg-id="OutsideTV.us" group-title="Travel",Outside TV
@@ -119,6 +133,14 @@ https://jmp2.uk/plu-628e685ba3811100070551a8.m3u8
 https://dz05z8iljgvbe.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-name="DUST" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/DUST_logo.svg/512px-DUST_logo.svg.png" tvg-id="DUST.us" group-title="Movies",DUST
 https://dqi7ayt2o24fn.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-name="Shout! Factory TV" tvg-logo="https://i.imgur.com/AgoGr6y.png" tvg-id="ShoutFactoryTV.us" group-title="Movies",Shout! Factory TV
+https://d1s1wrpgemt9re.cloudfront.net/Shout_TV.m3u8
+#EXTINF:-1 tvg-name="The Asylum" tvg-logo="https://i.imgur.com/dx9tt1B.png" tvg-id="TheAsylum.us" group-title="Movies",The Asylum
+https://d1i3g4v4xlfhad.cloudfront.net/The_Asylum.m3u8
+#EXTINF:-1 tvg-name="MovieSphere" tvg-logo="https://i.imgur.com/0sfk3yp.png" tvg-id="MovieSphere.us" group-title="Movies",MovieSphere
+https://amg00353-lionsgatefilmsi-moviesphereaus-samsungau-7qzhf.amagi.tv/playlist/amg00353-lionsgatefilmsi-moviesphereaus-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-name="Maverick Black Cinema" tvg-logo="https://images.fubo.tv/station_logos/maverick_black_cinema_c.png" tvg-id="MaverickBlackCinema.us" group-title="Movies",Maverick Black Cinema
+https://maverick-maverick-black-cinema-3-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="PBS Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/PBS_Kids_logo_2022.svg/512px-PBS_Kids_logo_2022.svg.png" tvg-id="PBSKids.us" group-title="Kids",PBS Kids
 https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
 #EXTINF:-1 tvg-name="Forever Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Pluto_TV_2020_logo.svg/512px-Pluto_TV_2020_logo.svg.png" tvg-id="ForeverKids.us" group-title="Kids",Forever Kids
@@ -155,6 +177,10 @@ https://amg00953-pbsusa-antiroadshow-xumo-x6ud5.amagi.tv/playlist.m3u8
 https://dazn-combat-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-dazn-combat-rakuten/CDN/master.m3u8
 #EXTINF:-1 tvg-name="ESPN8 The Ocho" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" tvg-id="ESPN8TheOcho.us" group-title="Sports",ESPN8 The Ocho
 https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
+#EXTINF:-1 tvg-name="FIFA+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/FIFA%2B_%282025%29.svg" tvg-id="FIFAPlus.uk" group-title="Sports",FIFA+
+https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
+#EXTINF:-1 tvg-name="Stadium" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Stadium_%28sports_network%29_logo.svg/960px-Stadium_%28sports_network%29_logo.svg.png" tvg-id="Stadium.us" group-title="Sports",Stadium
+https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadium_gracenote/samsung_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 tvg-name="Cops" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Cops_2002_logo.png/512px-Cops_2002_logo.png" tvg-id="Cops.us" group-title="Lifestyle",Cops
 https://a7d6af1c184e465db4f39316a5181c1f.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_COPS/playlist.m3u8
 #EXTINF:-1 tvg-name="FailArmy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Pluto_TV_2020_logo.svg/512px-Pluto_TV_2020_logo.svg.png" tvg-id="FailArmy.us" group-title="Lifestyle",FailArmy

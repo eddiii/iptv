@@ -29,11 +29,20 @@ jobs:
       - name: Rebuild curated playlist
         run: node build-curated.js
 
+      - name: Build EPG guide
+        run: |
+          git clone --depth 1 https://github.com/iptv-org/epg.git epg-src
+          cp epg.channels.xml epg-src/
+          cd epg-src
+          npm install
+          npm run grab --- --channels=epg.channels.xml --output=../guide.xml --gzip=../guide.xml.gz
+        continue-on-error: true
+
       - name: Commit changes if any
         run: |
           git config user.email "ci@github.com"
           git config user.name "iptv refresh bot"
-          git add edtv.m3u onstv.fixed.m3u onstv.fixed.partial.m3u status.json curated-status.json 2>/dev/null || true
+          git add edtv.m3u onstv.fixed.m3u onstv.fixed.partial.m3u status.json curated-status.json guide.xml guide.xml.gz 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No changes — nothing to commit."
             exit 0

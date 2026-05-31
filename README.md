@@ -16,6 +16,21 @@ Or the GitHub raw URL:
 https://raw.githubusercontent.com/eddiii/iptv/main/edtv.m3u
 ```
 
+## Program guide (EPG)
+
+The playlist header carries a `url-tvg` pointing at a self-hosted guide, so most
+players load the program guide automatically — no extra setup. If your player
+needs it entered manually, use:
+
+```
+https://cdn.jsdelivr.net/gh/eddiii/iptv/guide.xml
+```
+
+Coverage is 109 of the channels (the rest are local Middle-East stations and a
+few niche feeds with no public guide source). The guide is rebuilt weekly by the GitHub Action from
+`epg.channels.xml` using the [iptv-org/epg](https://github.com/iptv-org/epg)
+grabber, and committed back as `guide.xml` / `guide.xml.gz`.
+
 ## Files
 
 | File | Purpose |
@@ -23,6 +38,8 @@ https://raw.githubusercontent.com/eddiii/iptv/main/edtv.m3u
 | `edtv.m3u` | The curated playlist — this is the one you link to |
 | `onstv.m3u` | Original untouched source playlist (kept for reference) |
 | `build-curated.js` | Rebuilds `edtv.m3u` from `onstv.m3u` with overrides + filters |
+| `epg.channels.xml` | Maps channels to iptv-org EPG source sites (input to the guide grabber) |
+| `guide.xml` | The program guide — auto-built weekly, linked via `url-tvg` |
 | `src/cli.js` | Probes streams and auto-fixes dead URLs via the iptv-org public index |
 
 ## Regenerate `edtv.m3u`

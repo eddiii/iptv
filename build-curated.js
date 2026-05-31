@@ -48,7 +48,7 @@ const isGulf = (id) => {
 const replaceGroup = (extinf, newGroup) =>
   extinf.replace(/group-title="[^"]*"/, `group-title="${newGroup}"`);
 
-const out = ['#EXTM3U'];
+const out = ['#EXTM3U url-tvg="https://cdn.jsdelivr.net/gh/eddiii/iptv/guide.xml"'];
 const stripYouTubeMark = (extinf) => extinf.replace(/\s*Ⓨ/g, '');
 const push = (extinf, extras, url, group) => {
   out.push(replaceGroup(stripYouTubeMark(extinf), group));
@@ -81,6 +81,12 @@ const NEW_NEWS = [
    'https://aegis-cloudfront-1.tubi.video/27ff1997-507a-41c4-8433-08875fe5f40f/playlist.m3u8'],
   ['Newsy', 'Newsy.us', 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Newsy_logo.svg/250px-Newsy_logo.svg.png',
    'https://547f72e6652371c3.mediapackage.us-east-1.amazonaws.com/out/v1/e3e6e29095844c4ba7d887f01e44a5ef/index.m3u8'],
+  ['Al Jazeera English', 'AlJazeera.qa', 'https://dtil.tmsimg.com/assets/s159135_ld_h15_aa.png?lock=720x540',
+   'https://live-hls-apps-aja-fa.getaj.net/AJA/01.m3u8'],
+  ['LiveNOW from FOX', 'LiveNOWfromFOX.us', 'https://i.imgur.com/1JnyzHv.png',
+   'https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-livenowbyfox-lgus/playlist.m3u8'],
+  ['Bloomberg TV', 'BloombergTV.us', 'https://i.imgur.com/OuogLHx.png',
+   'https://bloomberg.com/media-manifest/streams/asia.m3u8'],
 ];
 for (const [name, id, logo, url] of NEW_NEWS) {
   out.push(`#EXTINF:-1 tvg-name="${name}" tvg-logo="${logo}" tvg-id="${id}" group-title="News",${name}`);
@@ -122,6 +128,10 @@ const NEW_DOC = [
    'https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8'],
   ['Bloomberg Originals', 'BloombergOriginals.us', 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Bloomberg_Originals_logo.svg/512px-Bloomberg_Originals_logo.svg.png',
    'https://www.bloomberg.com/media-manifest/streams/originals-global.m3u8'],
+  ['History Hit', 'HistoryHit.uk', 'https://i.imgur.com/ulHoqlP.png',
+   'https://ldsaaaaaa-timeline-samsungau-awedz.amagi.tv/playlist/ldsAAAAAA-timeline-samsungau/playlist.m3u8'],
+  ['Fuel TV', 'FUELTV.pt', 'https://i.imgur.com/I8mviBy.png',
+   'https://amg01074-fueltv-fueltvau-samsungau-g09kq.amagi.tv/playlist/amg01074-fueltv-fueltvau-samsungau/playlist.m3u8'],
 ];
 for (const [name, id, logo, url] of NEW_DOC) {
   out.push(`#EXTINF:-1 tvg-name="${name}" tvg-logo="${logo}" tvg-id="${id}" group-title="Documentary",${name}`);
@@ -179,6 +189,10 @@ const NEW_MUSIC = [
    'https://jmp2.uk/plu-6047fbdbbb776a0007e7f2ff.m3u8'],
   ['Trace Urban', 'TraceUrban.fr', 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Trace_Urban_logo_2024.svg/512px-Trace_Urban_logo_2024.svg.png',
    'https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8'],
+  ['Vevo Pop', 'VevoPop.us', 'https://i.imgur.com/dZHktKR.png',
+   'https://d128y56w6v2kax.cloudfront.net/playlist/amg00056-vevotv-vevopopau-samsungau/playlist.m3u8'],
+  ['Vevo Country', 'VevoCountry.us', 'https://images.pluto.tv/channels/5da0d75e84830900098a1ea0/featuredImage.jpg',
+   'https://amg00056-vevotv-vevocountryau-samsungau-ktmqm.amagi.tv/playlist/amg00056-vevotv-vevocountryau-samsungau/playlist.m3u8'],
 ];
 for (const [name, id, logo, url] of NEW_MUSIC) {
   out.push(`#EXTINF:-1 tvg-name="${name}" tvg-logo="${logo}" tvg-id="${id}" group-title="Music",${name}`);
@@ -209,6 +223,14 @@ const NEW_MOVIES = [
    'https://dz05z8iljgvbe.cloudfront.net/master.m3u8'],
   ['DUST', 'DUST.us', 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/DUST_logo.svg/512px-DUST_logo.svg.png',
    'https://dqi7ayt2o24fn.cloudfront.net/playlist.m3u8'],
+  ['Shout! Factory TV', 'ShoutFactoryTV.us', 'https://i.imgur.com/AgoGr6y.png',
+   'https://d1s1wrpgemt9re.cloudfront.net/Shout_TV.m3u8'],
+  ['The Asylum', 'TheAsylum.us', 'https://i.imgur.com/dx9tt1B.png',
+   'https://d1i3g4v4xlfhad.cloudfront.net/The_Asylum.m3u8'],
+  ['MovieSphere', 'MovieSphere.us', 'https://i.imgur.com/0sfk3yp.png',
+   'https://amg00353-lionsgatefilmsi-moviesphereaus-samsungau-7qzhf.amagi.tv/playlist/amg00353-lionsgatefilmsi-moviesphereaus-samsungau/playlist.m3u8'],
+  ['Maverick Black Cinema', 'MaverickBlackCinema.us', 'https://images.fubo.tv/station_logos/maverick_black_cinema_c.png',
+   'https://maverick-maverick-black-cinema-3-us.roku.wurl.tv/playlist.m3u8'],
 ];
 for (const [name, id, logo, url] of NEW_MOVIES) {
   out.push(`#EXTINF:-1 tvg-name="${name}" tvg-logo="${logo}" tvg-id="${id}" group-title="Movies",${name}`);
@@ -268,6 +290,10 @@ const NEW_SPORTS = [
    'https://dazn-combat-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-dazn-combat-rakuten/CDN/master.m3u8'],
   ['ESPN8 The Ocho', 'ESPN8TheOcho.us', 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png',
    'https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8'],
+  ['FIFA+', 'FIFAPlus.uk', 'https://upload.wikimedia.org/wikipedia/commons/9/9c/FIFA%2B_%282025%29.svg',
+   'https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8'],
+  ['Stadium', 'Stadium.us', 'https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Stadium_%28sports_network%29_logo.svg/960px-Stadium_%28sports_network%29_logo.svg.png',
+   'https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadium_gracenote/samsung_us/latest/main/hls/playlist.m3u8'],
 ];
 for (const [name, id, logo, url] of NEW_SPORTS) {
   out.push(`#EXTINF:-1 tvg-name="${name}" tvg-logo="${logo}" tvg-id="${id}" group-title="Sports",${name}`);

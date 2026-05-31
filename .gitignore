@@ -1,6 +1,7 @@
 node_modules/
 .cache/
 .DS_Store
+epg-src/
 
 # Env / secrets
 .env
