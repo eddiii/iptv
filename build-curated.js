@@ -122,8 +122,6 @@ const NEW_DOC = [
    'https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8'],
   ['Curiosity', 'CuriosityChannel.us', 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/CuriosityStream-Logo.png/512px-CuriosityStream-Logo.png',
    'https://jmp2.uk/plu-6576c20fb3801200084786c9.m3u8'],
-  ['NASA TV Public', 'NASATV.us', 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/512px-NASA_logo.svg.png',
-   'https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8'],
   ['Red Bull TV', 'RedBullTV.at', 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Red_Bull_TV_logo.svg/512px-Red_Bull_TV_logo.svg.png',
    'https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8'],
   ['Bloomberg Originals', 'BloombergOriginals.us', 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Bloomberg_Originals_logo.svg/512px-Bloomberg_Originals_logo.svg.png',
