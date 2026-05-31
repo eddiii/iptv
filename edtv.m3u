@@ -66,7 +66,7 @@ https://contact.gostreaming.tv/Knesset/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="CGTN Documentary" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/CGTN_Documentary_logo.png/512px-CGTN_Documentary_logo.png" tvg-id="CGTNDocumentary.cn" group-title="Documentary",CGTN Documentary
 https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
 #EXTINF:-1 tvg-name="BBC Earth" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/BBC_Earth_2019.svg/512px-BBC_Earth_2019.svg.png" tvg-id="BBCEarth.uk" group-title="Documentary",BBC Earth
-https://jmp2.uk/plu-656535fc2c46f30008870fae.m3u8
+https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8
 #EXTINF:-1 tvg-name="Curiosity" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/CuriosityStream-Logo.png/512px-CuriosityStream-Logo.png" tvg-id="CuriosityChannel.us" group-title="Documentary",Curiosity
 https://jmp2.uk/plu-6576c20fb3801200084786c9.m3u8
 #EXTINF:-1 tvg-name="NASA TV Public" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/512px-NASA_logo.svg.png" tvg-id="NASATV.us" group-title="Documentary",NASA TV Public
@@ -79,8 +79,6 @@ https://www.bloomberg.com/media-manifest/streams/originals-global.m3u8
 https://ldsaaaaaa-timeline-samsungau-awedz.amagi.tv/playlist/ldsAAAAAA-timeline-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-name="Fuel TV" tvg-logo="https://i.imgur.com/I8mviBy.png" tvg-id="FUELTV.pt" group-title="Documentary",Fuel TV
 https://amg01074-fueltv-fueltvau-samsungau-g09kq.amagi.tv/playlist/amg01074-fueltv-fueltvau-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-name="NASA TV Media" tvg-logo="https://i.imgur.com/rmyfoOI.png" tvg-id="NASATVMedia.us" group-title="Documentary",NASA TV Media
-https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8
 #EXTINF:-1 tvg-name="TRT World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/TRT_World_logo.svg/512px-TRT_World_logo.svg.png" tvg-id="TRTWorld.tr" group-title="World",TRT World
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="CGTN English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/CGTN_logo.svg/512px-CGTN_logo.svg.png" tvg-id="CGTN.cn" group-title="World",CGTN English

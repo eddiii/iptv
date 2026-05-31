@@ -35,7 +35,7 @@ jobs:
           cp epg.channels.xml epg-src/
           cd epg-src
           npm install
-          npm run grab --- --channels=epg.channels.xml --output=../guide.xml --gzip=../guide.xml.gz
+          npm run grab -- --channels=epg.channels.xml --output=../guide.xml --gzip --maxConnections=10
         continue-on-error: true
 
       - name: Commit changes if any

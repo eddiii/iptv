@@ -119,7 +119,7 @@ const NEW_DOC = [
   ['CGTN Documentary', 'CGTNDocumentary.cn', 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/CGTN_Documentary_logo.png/512px-CGTN_Documentary_logo.png',
    'https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8'],
   ['BBC Earth', 'BBCEarth.uk', 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/BBC_Earth_2019.svg/512px-BBC_Earth_2019.svg.png',
-   'https://jmp2.uk/plu-656535fc2c46f30008870fae.m3u8'],
+   'https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8'],
   ['Curiosity', 'CuriosityChannel.us', 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/CuriosityStream-Logo.png/512px-CuriosityStream-Logo.png',
    'https://jmp2.uk/plu-6576c20fb3801200084786c9.m3u8'],
   ['NASA TV Public', 'NASATV.us', 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/512px-NASA_logo.svg.png',
@@ -137,9 +137,8 @@ for (const [name, id, logo, url] of NEW_DOC) {
   out.push(`#EXTINF:-1 tvg-name="${name}" tvg-logo="${logo}" tvg-id="${id}" group-title="Documentary",${name}`);
   out.push(url);
 }
-// Pull NASA TV Media from onstv USA group into Documentary
-const nasaMedia = channels.find(c => c.tvgId === 'NASATVMedia.us');
-if (nasaMedia) push(nasaMedia.extinf, nasaMedia.extras, nasaMedia.url, 'Documentary');
+// NASA merged Public + Media into a single NASA+ channel (above); the old
+// onstv NASA TV Media feed is defunct, so it is no longer pulled in.
 
 // 3) World perspectives
 const NEW_WORLD = [
@@ -324,7 +323,7 @@ for (const c of me) push(c.extinf, c.extras, c.url, 'Middle East');
 
 await writeFile(OUT, out.join('\n') + '\n');
 console.log(`Wrote ${OUT}`);
-const docCount = NEW_DOC.length + (nasaMedia ? 1 : 0);
+const docCount = NEW_DOC.length;
 const musicCount = musicFromOnstv.length + NEW_MUSIC.length;
 console.log(`  News:        ${NEW_NEWS.length + arabicNews.length + meNews.length}`);
 console.log(`  Documentary: ${docCount}`);
